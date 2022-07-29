@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    /* background-color: lightgreen; */
+    overflow: hidden;
+    font-family: 'Poppins' ;
+    color: #ffffff;
+}
+
+.container {
+    background:  
+    url('./images/BackGround\ .jpg');
+    border: 2px solid white;
+    background-size: cover;
+    background-position: 0% 80%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    /* border: 2px solid green; */
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    left: 35px
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    /* margin-right: 500px; */
+    width: 600px;
+    align-items: flex-start;
+}
+
+.nav-item {
+    list-style: none;
+    font-weight: 500;
+}
+
+.contact {
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.svg-phone {
+    position: absolute;
+    right: 140px;
+    top: -40px;
+    -webkit-filter: invert(1);
+}
+
+.line {
+    border-bottom: 1px solid #ffffff;
+    width: 900px;
+    position: relative;
+    left: 410px;
+}
+
+.body {
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    height: 500px;
+    width: 90vw;;
+    margin: 0 auto;
+}
+
+.left {
+    /* border: 2px solid lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.heading {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    position: relative;
+    bottom:100px;
+}
+
+.bulb {
+    background-color: #8080804f;
+    width: 220px;
+    height: 140px;
+    position: absolute;
+    bottom: 90px;
+    left: 700px
+}
+
+.bulb img{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    right: 30px;
+    bottom: 60px;
+}
+
+.bulb-text {
+    /* border: 2px solid red; */
+    font-size: 13px;
+    width: fit-content;
+    position: absolute;
+    bottom: 115px;
+    right: 485px;
+}
+
+.puzzle {
+    background-color: #8080804f;
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    /* bottom: 90px; */
+    top: 180px;
+    right: 70px;
+}
+
+.puzzle img {
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 45px;
+    left: -20px;
+    width: 300px;
+    height: 90px;
+}
+
+.puzzle-text {
+    /* border: 2px solid salmon; */
+    position: absolute;
+    right: 115px;
+    top: 240px;
+    font-size: 13px;
+}
+.dot {
+    /* border: 2px solid red; */
+    width: 350px;
+    transform: rotate(90deg);
+}
+
+.bulb-dot {
+    position: absolute;
+    bottom: -40px;
+    right: 314px;
+}
+
+.puzzle-dot {
+    transform: rotate(180deg);
+    position: absolute;
+    right: -4px;
+    top: 91px
+}
+
+
