@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+body {
+    font-family: 'Poppins' ;
+    color: white; 
+    background: url('./images/BackGround\ .jpg');
+}
+
+.container {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.contact-num {
+    margin-right: 15px;
+}
+
+.list {
+    display: flex;
+    font-size: 10px;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+.svg-phone > img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.contact-num {
+    font-size: 10px;
+}
+
+
+.svg-bg > img{
+    width: 20px;
+}
+
+.body {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    row-gap: 50px;
+}
+
+.left {
+    
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 25px;
+    border-radius: 30px;
+    font-size: 8px;
+    border: 1px solid white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bulb, .puzzle {
+    background-color: #8080807c;
+    width: 220px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.svg-bg {
+    width: 65px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.dot {
+    display: none;
+}
+
+.bulb-text, .puzzle-text {
+    position: relative;
+    bottom: 80px;
+    width: 60%;
+    font-weight: 300;
+    text-align: center;
+}
